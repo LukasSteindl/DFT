@@ -46,7 +46,7 @@ namespace DFT
                 {
                     ReX[k] += SyntheseSignal[n] * Math.Sin(2.0 * Math.PI *k* n / 256);
                 }
-                ReX[k] *= -1; //nur für die visualisierung! 
+                ReX[k] *= -1; //nur für die visualisierung ! 
             }
 
             print_signal(ReX, mypanel5);
